@@ -1,0 +1,7 @@
+{
+    "version": 20200513,
+    "zip-command": "zip prueba.zip prueba\/app.json prueba\/entities\/*.json prueba\/intents\/*.json prueba\/traits\/*.json prueba\/utterances\/*.json",
+    "name": "prueba",
+    "lang": "en",
+    "timezone": "America\/Los_Angeles"
+}

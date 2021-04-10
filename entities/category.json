@@ -1,0 +1,77 @@
+{
+    "name": "category",
+    "roles": [
+        "category"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "angry",
+            "synonyms": [
+                "angry",
+                "annoyed",
+                "indignant",
+                "irritated",
+                "resentful",
+                "so angry"
+            ]
+        },
+        {
+            "keyword": "anxious",
+            "synonyms": [
+                "anxiety",
+                "anxious",
+                "concerned",
+                "disturbed",
+                "pressured",
+                "stress",
+                "tense",
+                "uneasy",
+                "worried"
+            ]
+        },
+        {
+            "keyword": "bad",
+            "synonyms": [
+                "bad",
+                "horrible",
+                "really bad",
+                "very bad"
+            ]
+        },
+        {
+            "keyword": "happy",
+            "synonyms": [
+                "cheerful",
+                "content",
+                "extremely happy",
+                "happy",
+                "very good",
+                "very happy"
+            ]
+        },
+        {
+            "keyword": "options",
+            "synonyms": [
+                "alternatives",
+                "options",
+                "possibilities",
+                "technique"
+            ]
+        },
+        {
+            "keyword": "sad",
+            "synonyms": [
+                "breakdown",
+                "depressed",
+                "down",
+                "miserable",
+                "sad",
+                "unhappy"
+            ]
+        }
+    ]
+}

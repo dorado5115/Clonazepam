@@ -1,0 +1,6 @@
+{
+    "name": "get_feeling",
+    "entities": [
+        "category:category"
+    ]
+}

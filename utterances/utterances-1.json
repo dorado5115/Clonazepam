@@ -1,0 +1,493 @@
+{
+    "utterances": [
+        {
+            "text": "Can you give me the options?",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "getOptions",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_options"
+        },
+        {
+            "text": "Catch ya later",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$bye",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_goodbye"
+        },
+        {
+            "text": "Good evening",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$greetings",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_greetings"
+        },
+        {
+            "text": "Good morning",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$greetings",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_greetings"
+        },
+        {
+            "text": "Goodbye",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$bye",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_goodbye"
+        },
+        {
+            "text": "Gotta go!",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$bye",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_goodbye"
+        },
+        {
+            "text": "How are you today",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$greetings",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_greetings"
+        },
+        {
+            "text": "I am feeling very bad",
+            "entities": [
+                {
+                    "entity": "category:category",
+                    "start": 18,
+                    "end": 21,
+                    "body": "bad",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "getFeeling",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_feeling"
+        },
+        {
+            "text": "I feel bad",
+            "entities": [
+                {
+                    "entity": "category:category",
+                    "start": 7,
+                    "end": 10,
+                    "body": "bad",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "getFeeling",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_feeling"
+        },
+        {
+            "text": "I feel miserable",
+            "entities": [
+                {
+                    "entity": "category:category",
+                    "start": 7,
+                    "end": 16,
+                    "body": "miserable",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "getFeeling",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_feeling"
+        },
+        {
+            "text": "I'm angry",
+            "entities": [
+                {
+                    "entity": "category:category",
+                    "start": 4,
+                    "end": 9,
+                    "body": "angry",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "getFeeling",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_feeling"
+        },
+        {
+            "text": "I'm feeling very anxious",
+            "entities": [
+                {
+                    "entity": "category:category",
+                    "start": 17,
+                    "end": 24,
+                    "body": "anxious",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "getFeeling",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_feeling"
+        },
+        {
+            "text": "I'm feeling very bad",
+            "entities": [
+                {
+                    "entity": "category:category",
+                    "start": 17,
+                    "end": 20,
+                    "body": "bad",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "getFeeling",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_feeling"
+        },
+        {
+            "text": "I'm happy",
+            "entities": [
+                {
+                    "entity": "category:category",
+                    "start": 4,
+                    "end": 9,
+                    "body": "happy",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "getFeeling",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_feeling"
+        },
+        {
+            "text": "I'm off",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$bye",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_goodbye"
+        },
+        {
+            "text": "It did help me",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$sentiment",
+                    "value": "positive"
+                }
+            ],
+            "intent": "get_sentiment"
+        },
+        {
+            "text": "Talk to you soon",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$bye",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_goodbye"
+        },
+        {
+            "text": "Thank you",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$thanks",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_thanks"
+        },
+        {
+            "text": "That did not helped me",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$sentiment",
+                    "value": "negative"
+                }
+            ],
+            "intent": "get_sentiment"
+        },
+        {
+            "text": "You did not help me",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$sentiment",
+                    "value": "negative"
+                }
+            ],
+            "intent": "get_sentiment"
+        },
+        {
+            "text": "You suck",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$sentiment",
+                    "value": "negative"
+                }
+            ],
+            "intent": "get_sentiment"
+        },
+        {
+            "text": "angry",
+            "entities": [
+                {
+                    "entity": "category:category",
+                    "start": 0,
+                    "end": 5,
+                    "body": "angry",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "getFeeling",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_feeling"
+        },
+        {
+            "text": "bad",
+            "entities": [
+                {
+                    "entity": "category:category",
+                    "start": 0,
+                    "end": 3,
+                    "body": "bad",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "getFeeling",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_feeling"
+        },
+        {
+            "text": "bye",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$bye",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_goodbye"
+        },
+        {
+            "text": "good afternoon",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$greetings",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_greetings"
+        },
+        {
+            "text": "happy",
+            "entities": [
+                {
+                    "entity": "category:category",
+                    "start": 0,
+                    "end": 5,
+                    "body": "happy",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "getFeeling",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_feeling"
+        },
+        {
+            "text": "hello",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$greetings",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_greetings"
+        },
+        {
+            "text": "hello!",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$greetings",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_greetings"
+        },
+        {
+            "text": "hey",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$greetings",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_greetings"
+        },
+        {
+            "text": "hi",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$greetings",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_greetings"
+        },
+        {
+            "text": "sad",
+            "entities": [
+                {
+                    "entity": "category:category",
+                    "start": 0,
+                    "end": 3,
+                    "body": "sad",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "getFeeling",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_feeling"
+        },
+        {
+            "text": "see you later",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$bye",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_goodbye"
+        },
+        {
+            "text": "stop",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "wit$bye",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_goodbye"
+        },
+        {
+            "text": "technique",
+            "entities": [
+                {
+                    "entity": "category:category",
+                    "start": 0,
+                    "end": 9,
+                    "body": "technique",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "getOptions",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_options"
+        },
+        {
+            "text": "tell me another technique",
+            "entities": [
+                {
+                    "entity": "category:category",
+                    "start": 15,
+                    "end": 25,
+                    "body": " technique",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "getOptions",
+                    "value": "true"
+                }
+            ],
+            "intent": "get_options"
+        }
+    ]
+}

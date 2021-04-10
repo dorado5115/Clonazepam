@@ -1,0 +1,6 @@
+{
+    "name": "get_options",
+    "entities": [
+        "category:category"
+    ]
+}
